@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Garet';
+    src: url('Fonts/Garet-Book.woff2') format('woff2'),
+    url('Fonts/Garet-Book.woff') format('woff'),
+    url('Fonts/Garet-Book.ttf') format('truetype');
+    font-weight: normal; /* Peso fuerte */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garet-Heavy';
+    src: url('fonts/Garet-Heavy.woff2') format('woff2'),
+    url('fonts/Garet-Heavy.woff') format('woff'),
+    url('fonts/Garet-Heavy.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Garet', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image: url('Imagenes/Fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 850px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: auto;
+    height: 230px;
+    object-fit: cover;
+    margin-bottom: 5px;
+
+}
+
+h2, h3 {
+    color: #2f4e58;
+    margin: 10px 0 300px;
+}
+
+.social-buttons {
+    margin-top: 40px;
+}
+
+.social-buttons a {
+    display: flex; /* Activa flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    margin: 10px auto;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    border: black solid 1px;
+}
+
+
+.social-buttons a img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}
+
+footer {
+    margin: 200px 0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    clear: both;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #36a8de;
+    color: #2f4e58;
+    border: none;
+    border-radius: 5px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #2f4e58;
+}
