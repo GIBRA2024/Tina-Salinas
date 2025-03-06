@@ -41,10 +41,12 @@ body {
 
 .profile-pic {
     width: auto;
-    height: 230px;
+    height: 180px;
     object-fit: cover;
-    margin-bottom: 5px;
-
+    margin-top: 70px;
+    margin-bottom: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
 h2, h3 {
@@ -84,25 +86,14 @@ h2, h3 {
 }
 
 footer {
-    margin: 200px 0;
+    margin: 20px 0;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
     clear: both;
 }
 
-button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #36a8de;
-    color: #2f4e58;
-    border: none;
-    border-radius: 5px;
-}
-
 .link-footer {
     text-decoration: none;
-    color: #2f4e58;
+    color: black;
 }
